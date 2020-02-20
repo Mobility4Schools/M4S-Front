@@ -1,0 +1,18 @@
+<div>
+  <ngb-carousel>
+     <ng-template *ngFor ="let plan of planes"ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="{{plan.img}}" alt="">
+       
+      </div>
+      <div class="carousel-caption">
+        <h1 >{{plan.name}}</h1>
+        <p>{{plan.desc}}</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>
+<button class="btn-color"><b>Enterate +</b></button>
+
+
+
