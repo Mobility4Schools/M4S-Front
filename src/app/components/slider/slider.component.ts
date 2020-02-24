@@ -11,7 +11,7 @@ export class SliderComponent implements OnInit {
   planes:any[]=[
   {name:'Plan Basico',
     img:'assets/imagenes/plan1.jpg',
-    desc:'Plna Basico de 3 meses por contrato',
+    desc:'Plan Basico de 3 meses por contrato',
   },
   {
     name:'Plan Medium',
