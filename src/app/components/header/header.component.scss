@@ -7,6 +7,61 @@ header{
     width: 100%;
     background: #fff;
 }
+
+
+.input-buscar {
+    
+    position: relative;
+    top:10px;
+    background: #F7F719;
+    background-size: 20px;
+    display: flex;
+    text-align: left;
+    font-size: 14px;
+    width: 180px;
+    padding-left: 28px;
+    height: 30px;
+    border: 1px solid #25adf7;
+    border-radius: 15px;
+  }
+.icon{
+    position: relative;
+    top:-25px;
+    right: -130px;
+
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.redes{
+    position: relative;
+    display: inline;
+    left: 0;
+
+}
+
+//////////////////////////////
+*{box-sizing:border-box;}
+
+		.container{
+			width:95%;
+			max-width:900px;
+			padding:32px 64px;
+			margin:auto;
+		}
+
+		.social{
+            /*las imágenes usadas tienen width de 48px*/
+            position: relative;
+            float: right;
+        
+		}
+
+
+
+
+
 #btn-menu{
     display: none;
 }

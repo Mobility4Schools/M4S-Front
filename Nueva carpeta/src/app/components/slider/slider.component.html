@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="flexslider">
+    <ngb-carousel class="slides">
+       <ng-template *ngFor ="let plan of planes"ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="{{plan.img}}" alt="">
+         
+        </div>
+        <div class="carousel-caption">
+          <button class="btn"><b>Enterate +</b></button>
+          <h1 >{{plan.name}}</h1>
+          <p>{{plan.desc}}</p>
+          
+          
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+  
+
+
+
+</body>
+</html>
+
+
+
+
