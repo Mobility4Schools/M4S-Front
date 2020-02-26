@@ -5,6 +5,66 @@
     position: relative;
     top: -35px;
 }
+.list-img img{
+    height: 150px;
+}
 .card-img img{
     height: 150px;
+}
+.bell-img img{
+    height: 150px;
+}
+.chat-img img{
+    height: 150px;
+}
+.public1-img img{
+    height: 300px;
+}
+.public2-img img{
+    height: 300px;
+}
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.flexslider{
+    width: 100%;
+    position: relative;
+}
+.slides{
+    overflow: hidden;
+}
+
+.slides img{
+    width: 100%;
+}
+.slides,
+.flex-control-nav,
+.flex-direction-nav{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn{
+    width: 100%;
+    position: relative;
+    background: #F7F719;
+    border-radius: 15px;
+    color: #000;
+    font-size: 20px ;     
+    width: 150px;
+    height: 40px;
+}
+.block-advertisin{
+    background:#ffffff;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    top: -35px;
 }
