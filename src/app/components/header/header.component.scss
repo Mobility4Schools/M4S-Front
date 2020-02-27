@@ -1,12 +1,5 @@
 @import '../../../sass/styles.scss';
-.block{
-    &-asd{
-        border: 1px solid;
-        &--er{
-            padding: 5px;
-        }
-    }
-}
+
 body{
     margin:0;
 }
@@ -16,31 +9,27 @@ header{
     background:$color-gray-light;
     padding: 0 15px;
 }
+
 .search-school{
     position:relative;
     input{
         padding-right: 40px;
     }
-    
     .icon{
         position: absolute;
         top: 0;
         right: 0;
         height: 30px;
-        padding: 5px 15px;
+        padding: 5px 15px 5px;
     }
 }
 
 
-.redes{
-    position: relative;
-    display: inline;
-    left: 0;
-
-}
-
 img.logo-main {
     height: 100px;
+}
+.nav{
+    justify-content: flex-end;
 }
 
 .social{
@@ -48,77 +37,17 @@ img.logo-main {
     justify-content: flex-end;
     align-items: center;
     position: relative;
+    top: 15px;
     .social-icon{
         height: 20px;
         padding-right: 10px;
     }
     
 }
-
-
-#btn-menu{
-    display: none;
-}
-header label{
-    display: none;
-    width: 30px;
-    height: 30px;
-    padding: 10px;
-    border-right: 1px solid #fff;
-}
-header label:hover{
-cursor: pointer;
-background:rgba(0,0,0,0.3);
-}
-.menu ul{
-    margin: 0;
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-}
-.menu li{
-    border-right: 1px solid #fff;
-}
-.menu li:hover{
-    background: rgba(51,153, 255, 0.3);
-    border-radius: 15px
-}
-.menu li a{
-    display: block;
-    padding: 15px 20px;
-    color: #000;
-    text-decoration: none;
-}
-img.logo-main {
-    height: 100px;
-}
-
 @media(max-width:992px){
     .search-school{
     position: absolute;
     top: 2em;
     right: 5em;
-    }
-}
-@media(max-width:768px){
-    header label{
-        display: block;
-    }
-    .menu{
-        position: absolute;
-        background: #fff;
-        width: 70%;
-        margin-left: -70%;
-        transition: all 0.5s;
-    }
-    .menu ul{
-        flex-direction: column;
-    }
-    .menu li{
-        border-top: 1px solid #fff;
-    }
-    #btn-menu:checked ~ .menu{
-        margin:0;
     }
 }
