@@ -17,45 +17,41 @@
       <div id="tutor" class="container tab-pane active"><br>
 
         <form action="#">
-
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  Seleccione Documento
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Dni</a>
+                  <a class="dropdown-item" href="#">Pasaporte</a>
+                  <a class="dropdown-item" href="#">Carnet Extranjeria</a>
+                </div>
+              </div>
             <br>
           <div class="form-group">
-            <input type="text" class="form-control form-control-sm" placeholder="Nombre" id="">
+            <input type="text" class="form-control form-control-sm" placeholder="Num. Documento" id="">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control form-control-sm" placeholder="Nunero de Asientos" id="">
+            <input type="text" class="form-control form-control-sm" placeholder="Nombres" id="">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control form-control-sm" placeholder="Numero de Pasajeros" id="">
+            <input type="text" class="form-control form-control-sm" placeholder="Apellidos" id="">
           </div>
-          <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-              Marca
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Toyota</a>
-              <a class="dropdown-item" href="#">Nissan</a>
-              <a class="dropdown-item" href="#">Ferrary</a>
-            </div>
+          <div class="form-group">
+            <input type="text" class="form-control form-control-sm" placeholder="Correo Electronico" id="">
           </div>
-          <br>
-          <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-              Tipo de Vehiculo
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Auto</a>
-              <a class="dropdown-item" href="#">Miniband</a>
-              <a class="dropdown-item" href="#">Camioneta</a>
-            </div>
+          <div class="form-group">
+            <input type="password" class="form-control form-control-sm" placeholder="Contraseña" id="">
           </div>
-          <br>
+          <div class="form-group">
+            <input type="password" class="form-control form-control-sm" placeholder="Repetir Contraseña" id="">
+          </div>
           <div class="form-group form-check">
             <label class="form-check-label">
               <input class="form-check-input" type="checkbox"> Aceptar los Terminos y Condiciones de Uso
             </label>
           </div>
-          <button type="submit" class="btn btn-primary">Grabar</button>
+          <button type="submit" class="btn btn-primary">Siguiente</button>
         </form>
 
 
