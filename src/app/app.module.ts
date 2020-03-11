@@ -14,6 +14,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { LoginComponent } from './components/login/login.component';
 import { CuentaComponent } from './components/cuenta/cuenta.component';
 import { compileNgModuleFromRender2 } from '@angular/compiler/src/render3/r3_module_compiler';
+import { ModeloVehiculoComponent } from './components/modelo-vehiculo/modelo-vehiculo.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { compileNgModuleFromRender2 } from '@angular/compiler/src/render3/r3_mod
     HeaderComponent,
     LoginComponent,
     CuentaComponent,
+    ModeloVehiculoComponent,
   ],
   imports: [
     BrowserModule,
