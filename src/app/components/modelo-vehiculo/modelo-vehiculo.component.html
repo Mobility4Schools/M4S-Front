@@ -16,20 +16,32 @@
       <div class="tab-content">
         <div id="tutor" class="container tab-pane active"><br>
   
-          <form action="#">
+          <form [formGroup]="formModelVehiculo" (ngSubmit)="saveModelVehiculo(formModelVehiculo)">
   
               <br>
             <div class="form-group">
-              <input type="text" class="form-control form-control-sm" placeholder="Nombre" id="">
+              <input type="text" class="form-control form-control-sm" placeholder="Nombre" formControlName="mv_nombre">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control form-control-sm" placeholder="Nunero de Asientos" id="">
+              <input type="text" class="form-control form-control-sm" placeholder="Nunero de Asientos" formControlName="mv_nroAsientos">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control form-control-sm" placeholder="Numero de Pasajeros" id="">
+              <input type="text" class="form-control form-control-sm" placeholder="Numero de Pasajeros" formControlName="mv_nroPasajeros">
             </div>
-            <div class="dropdown">
-              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <select name="" formControlName="id_marcas">
+                <option value="" disabled>Selecciona marca</option>
+                <option value="1">TOYOTA</option>
+                <option value="2">NISSAN</option>
+            </select>
+            <select name="" formControlName="id_tVehiculo">
+                <option value="" disabled>Selecciona marca</option>
+                <option value="1">a</option>
+                <option value="2">b</option>
+            </select>
+
+
+            <!-- <div class="dropdown">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" >
                 Marca
               </button>
               <div class="dropdown-menu">
@@ -37,9 +49,9 @@
                 <a class="dropdown-item" href="#">Nissan</a>
                 <a class="dropdown-item" href="#">Ferrary</a>
               </div>
-            </div>
+            </div> -->
             <br>
-            <div class="dropdown">
+            <!-- <div class="dropdown">
               <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                 Tipo de Vehiculo
               </button>
@@ -48,7 +60,7 @@
                 <a class="dropdown-item" href="#">Miniband</a>
                 <a class="dropdown-item" href="#">Camioneta</a>
               </div>
-            </div>
+            </div> -->
             <br>
             <div class="form-group form-check">
               <label class="form-check-label">
