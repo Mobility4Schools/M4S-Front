@@ -1,9 +1,50 @@
-.body{
-    background: #657e82;
-    text-align: center;
-    color: #fff;
-    position: relative;
-    top: -35px;
-    
+.color-footer {
+  background: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+
+}
+.p{
+  align-items: center;
+  padding: 15px;
+
 }
 
+.social-icon{
+  height: 20px;
+  padding-right: 10px;
+}
+
+.block-1 {
+    background: #2D76B0;
+    color: #fff;
+    padding: 17px;
+  }
+
+.block-2 {
+  background: #2D76B0;
+  color: #fff;
+  text-align: center;
+  padding: 34px;
+}
+
+.block-3 {
+  background: #2D76B0;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 76px;
+}
+h5{
+  color: #F7F719;
+}
+.text-footer{
+align-items: center;
+padding: 10px;
+display:inline;
+margin-right:25px;
+}
